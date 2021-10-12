@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#bodyEl{
+    height: 100vh;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url("image1.jpg");
+ 
+}
+.header{
+    margin: 2rem ;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(255, 255, 255);
+}
+#textAr{
+    width: 20rem;
+    height: 9rem;
+}
+.main{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    text-transform:uppercase;
+    margin: 6rem;
+    color: aliceblue;
+    
+}
+.main input{
+    padding: 1rem 2rem;
+    background-color: coral;
+    border-radius: 2rem 0rem;
+    outline: 2px solid rebeccapurple;
+    outline-offset: 0.5rem;
+    color: aliceblue;
+    margin: 0rem 1rem;
+}
+h2{
+    margin-top: 1rem;
+}
+p{
+    color: aliceblue;
+    font-size: 5rem;
+    
+    
+}
